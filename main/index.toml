@@ -1742,6 +1742,11 @@ hash = "38778c03f5c14624eabd2f8b156efb8c8f785368ec78f39519044e1c25b773a2"
 metafile = true
 
 [[files]]
+file = "mods/red-bits.pw.toml"
+hash = "f3dd375cdee0bbd077dcc70ef7dbcd1aecbd5e92b019e0940e5e26e31e6f2004"
+metafile = true
+
+[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "2a7123bb25f877e54b8c047ff32c826ab7d74d371c086fdc02b834377c07fdb0"
 metafile = true
