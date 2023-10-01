@@ -388,7 +388,7 @@ metafile = true
 
 [[files]]
 file = "modpack/datapacks/towers-of-the-wild-reworked.pw.toml"
-hash = "b0e20c6784479b75a8053f1494f3cf1b7c37022733c16ded70d83f973b7e3a7b"
+hash = "ddece2befa43519f7d23e66a25d735a7b5ed86a32a802e0be7f5ef4c7e66a796"
 metafile = true
 
 [[files]]
@@ -1064,7 +1064,7 @@ metafile = true
 
 [[files]]
 file = "mods/cristel-lib.pw.toml"
-hash = "e9b0477ea64f25308239015003e92d50821e0a4716772a4577ea876cdaa1d392"
+hash = "99ebcba8d55c3d9f051b5214b3b47d6c992d3a67703bd443da6082d3d268c56d"
 metafile = true
 
 [[files]]
@@ -1189,7 +1189,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "45119a046ee1e893bed9ae1143e69e677816689379dcbba12151cdcf5a53a3e4"
+hash = "e1281e7858663cb1ef53f91e56005ea165f7d95473e12891db40f3266cf755e1"
 metafile = true
 
 [[files]]
@@ -1269,7 +1269,7 @@ metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "6e11092807655368ba24b6b462d9c1cf6bbc264668c60d044fbed61d15c96e77"
+hash = "475a80d419b1250a2d8269bbe3751dad8d7d4b2334bf2e3e3761c7e74b26a386"
 metafile = true
 
 [[files]]
@@ -1409,7 +1409,7 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "8650b1cae25cb5905c2157e1d5c2fcc92e1aaf2a50ea107ac5153c88a833e404"
+hash = "b65299ec2164ae532cfa39d5322ae84fd25bd5145fafaf3cc811929c799048d2"
 metafile = true
 
 [[files]]
@@ -1549,7 +1549,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "d08af5fe4af068ce30af18f2a6b03101d7fbcb27b196072fccc951c16212057e"
+hash = "5dfa61594dd3ce50914a6ed2bcd62b116e5bf4ccdc6111de37a348c147e848d7"
 metafile = true
 
 [[files]]
@@ -1724,7 +1724,7 @@ metafile = true
 
 [[files]]
 file = "mods/qsl.pw.toml"
-hash = "6c7c8c7f424804a1efcfa2a6828d365c3a68eb38016e31f48967f45172de47ee"
+hash = "a41dbddd6d8d0500fe2dfaa5115ea56393ce8556372da24633ef681273f4dc3c"
 metafile = true
 
 [[files]]
@@ -1813,7 +1813,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-discord-rpc.pw.toml"
-hash = "78a593b8107af7fa39f3a62375cf00aebf35aa9390dc8f4cc03d868abb33afa6"
+hash = "f1864a3746f982d935d833b9697137031ad16c68ca3a080d00703b7da4834357"
 metafile = true
 
 [[files]]
@@ -1923,7 +1923,7 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "0eb5eb33dc00195a62b07242d67306a2ef4077b96f98ca70682a2d175251d647"
+hash = "3c84a76a650422976dc94c3d46bb0a9aba38aaf4be8c09a3aaf1683e651b1f51"
 metafile = true
 
 [[files]]
@@ -1933,7 +1933,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "c34db37b2202fa21fb5d47e025f63922f3f80c1a1a59b81d21c449a5533f45eb"
+hash = "bc30247529c993e5a405414c82ca95182e2d1185343f72c44abd4458ca30a2a6"
 metafile = true
 
 [[files]]
@@ -2049,6 +2049,11 @@ metafile = true
 [[files]]
 file = "mods/universal-shops.pw.toml"
 hash = "68ccb253665278c4d022b48cd291897d15926fcf84db70e79db1844c69203baa"
+metafile = true
+
+[[files]]
+file = "mods/useful-brush.pw.toml"
+hash = "b7830fee7b0b01aa7cb5cbb4faccaceed6758c9cda1132dd49f6d9b6dc581046"
 metafile = true
 
 [[files]]
@@ -2184,6 +2189,11 @@ metafile = true
 [[files]]
 file = "mods/yungs-extras.pw.toml"
 hash = "3f0ac032a4f89382745b03a8e1078041f728d9e4f2df14fa9eb910382b98b1c4"
+metafile = true
+
+[[files]]
+file = "mods/yungs-menu-tweaks.pw.toml"
+hash = "5b81c11de668f5a63daa53d4fbe45187b4d662c890d20f7a117dcfb01daf1fbd"
 metafile = true
 
 [[files]]
