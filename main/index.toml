@@ -889,7 +889,7 @@ metafile = true
 
 [[files]]
 file = "mods/better-stats.pw.toml"
-hash = "c578f372ed96184c5c8dd5e1e312bd76764625982814eaee42deaa69276b9fcc"
+hash = "a0868c851af5ff84f8086f61a58dad7f2b9d5b0a92d0133fab7200a6c9f92ca6"
 metafile = true
 
 [[files]]
@@ -1284,7 +1284,7 @@ metafile = true
 
 [[files]]
 file = "mods/fast-paintings.pw.toml"
-hash = "275311fc93b8a0ac30e0eb71e1d5a391b5e1e0967b03da22039d43ed1feb2b71"
+hash = "0a74d923e87db27d610f8ebe6f60915e2a10a351de72a96a26e8ba2d456c8e11"
 metafile = true
 
 [[files]]
@@ -1444,7 +1444,7 @@ metafile = true
 
 [[files]]
 file = "mods/jeitweaker.pw.toml"
-hash = "e27b4bf562e475df8d235af52515a64c664d4fc9f7eb704934e5308f742b2abf"
+hash = "606a6feac847a81ddb1b799e588c747a8807c94c298df76f7c9b9c5c25557907"
 metafile = true
 
 [[files]]
@@ -1549,7 +1549,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "5dfa61594dd3ce50914a6ed2bcd62b116e5bf4ccdc6111de37a348c147e848d7"
+hash = "d61897931a50b74bd177465988eb0209ac9c3270fd68888da37bb762c5d31cde"
 metafile = true
 
 [[files]]
@@ -1584,7 +1584,7 @@ metafile = true
 
 [[files]]
 file = "mods/mouse-wheelie.pw.toml"
-hash = "845c1d31ee0bebaa88436aad520d6951195a795a7e8767f26e7a7248bd486f3d"
+hash = "f5eb9d19a205a42dbb9d8ad4ee95e2cf0364814dd8416a9147b21f261dd93c97"
 metafile = true
 
 [[files]]
@@ -1654,7 +1654,7 @@ metafile = true
 
 [[files]]
 file = "mods/open-parties-and-claims.pw.toml"
-hash = "24d88c8d275c4e1289afbed5deec53d9052882447cff116e26b3439370de5697"
+hash = "69af36e0a1e29e69ccecf4379845a5b25f2a00b9b0c2209d24437a3bac7cf9d0"
 metafile = true
 
 [[files]]
@@ -1758,7 +1758,7 @@ metafile = true
 
 [[files]]
 file = "mods/regions-unexplored.pw.toml"
-hash = "132b94a20e3b95496a84bca92f83215c1ae9dcfa2cdc48262330ef57587c3e65"
+hash = "b9945458760c6d56db590b3c3160af1c48e4fafcc6d932623c5b5fbd11bd3d57"
 metafile = true
 
 [[files]]
@@ -1798,7 +1798,7 @@ metafile = true
 
 [[files]]
 file = "mods/searchables.pw.toml"
-hash = "b522434876ddc61e9c3e7469fd590b13f1c182a339e852586ab905ac2debdf60"
+hash = "b98480da2473909a9fa62476ffa92015a8b0b5f59f2be9448957c64929018d04"
 metafile = true
 
 [[files]]
@@ -1933,7 +1933,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "bc30247529c993e5a405414c82ca95182e2d1185343f72c44abd4458ca30a2a6"
+hash = "b7aa80077a822823775ab923d90235a75483db88490fa4f815740ea7def834b0"
 metafile = true
 
 [[files]]
@@ -2319,7 +2319,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/rethinking-voxels.pw.toml"
-hash = "1f2ec0bcd3a5e8e5a4070b141654039f726812ae0a76acf2b6b5e309da24dc0e"
+hash = "801ce659e2e944efad8ed937e1e49ebec24be88ba26da4630c59e5afcba75571"
 metafile = true
 
 [[files]]
