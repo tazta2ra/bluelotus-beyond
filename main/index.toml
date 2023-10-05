@@ -1343,6 +1343,16 @@ hash = "3a371a1e4d658ee3fd9f0c9b5f12f126ae8115e5d2c18c80f959bb4d0b604b27"
 metafile = true
 
 [[files]]
+file = "mods/formations-nether.pw.toml"
+hash = "940556fccaa9e1a065faa896646730d3c826f983843481071f38157b91a1e61e"
+metafile = true
+
+[[files]]
+file = "mods/formations-overworld.pw.toml"
+hash = "9c17d9ce77ea3d69a1e1c095bb1d099790d28940552fd010860480a762e11ca9"
+metafile = true
+
+[[files]]
 file = "mods/friendly-fire.pw.toml"
 hash = "35f8235d7d5b2f6fb5625fdc654abda6b715d9ef7c0269c49fc0d4e89ca3e4fe"
 metafile = true
@@ -1549,7 +1559,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "d61897931a50b74bd177465988eb0209ac9c3270fd68888da37bb762c5d31cde"
+hash = "072f6f8811b34e73106a9c81976ab746cebd9267dfe56c8b66d16c7bfd2a7a88"
 metafile = true
 
 [[files]]
@@ -1818,7 +1828,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "afa454ad1d2a4b3af693b4fda8ceeca616ac895257b8dd2a1a0d5db330d9314f"
+hash = "35db6a82738d4c9aa018954164186e6cda92ef9c4739a0412478cf71927d220b"
 metafile = true
 
 [[files]]
@@ -1933,7 +1943,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "b7aa80077a822823775ab923d90235a75483db88490fa4f815740ea7def834b0"
+hash = "ee2aaf7b3c500336e2f0f99316b92e1258d8f72006f41a3d9c65bcdf7e850c63"
 metafile = true
 
 [[files]]
@@ -2319,7 +2329,7 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/rethinking-voxels.pw.toml"
-hash = "801ce659e2e944efad8ed937e1e49ebec24be88ba26da4630c59e5afcba75571"
+hash = "ff019bacf0458d33588410c520495c55d88f19dc26bf85af4cf9fbd9856eac7f"
 metafile = true
 
 [[files]]
