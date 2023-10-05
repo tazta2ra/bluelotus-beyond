@@ -393,7 +393,7 @@ metafile = true
 
 [[files]]
 file = "modpack/mainmenu-verison.txt"
-hash = "34479a0d5130c6f8e2f73736b132bd4be23a8f74336178894372b873809fcc1a"
+hash = "3854bce7dd3994a0564522e8b57b48f1f42405fda218762fcf5b5418d0c6badc"
 
 [[files]]
 file = "modpack/resources/beyond_VanillaTweaks/Selected Packs.txt"
@@ -1559,7 +1559,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "072f6f8811b34e73106a9c81976ab746cebd9267dfe56c8b66d16c7bfd2a7a88"
+hash = "d61897931a50b74bd177465988eb0209ac9c3270fd68888da37bb762c5d31cde"
 metafile = true
 
 [[files]]
@@ -1943,7 +1943,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "ee2aaf7b3c500336e2f0f99316b92e1258d8f72006f41a3d9c65bcdf7e850c63"
+hash = "b7aa80077a822823775ab923d90235a75483db88490fa4f815740ea7def834b0"
 metafile = true
 
 [[files]]
