@@ -338,7 +338,7 @@ hash = "ba708bcb6bc3be4bef58b161c540ca1cab36b26cf1ed24808fcfd79cec54ab63"
 
 [[files]]
 file = "modpack/datapacks/repurposed-structures-better-desert-temples-compat.pw.toml"
-hash = "d8d6dd310cc92d308db3a442442f84927ca5267f56488c1f4b59c18e2748640f"
+hash = "9650981fa587dc92a2b8b6fdac72bf8e76526d16c33a967ffc45d5da811b4be9"
 metafile = true
 
 [[files]]
@@ -1199,7 +1199,7 @@ metafile = true
 
 [[files]]
 file = "mods/emuno.pw.toml"
-hash = "3fe8ab29c47d04dd0a80b3886534bfa56bfcab9a490dbfdc96c4516db8c477b3"
+hash = "8f0c18360533351fff9237b803b1a91fb86cc9b00d56e61f116076e654c9f8e8"
 metafile = true
 
 [[files]]
@@ -1350,6 +1350,11 @@ metafile = true
 [[files]]
 file = "mods/formations-overworld.pw.toml"
 hash = "9c17d9ce77ea3d69a1e1c095bb1d099790d28940552fd010860480a762e11ca9"
+metafile = true
+
+[[files]]
+file = "mods/formations.pw.toml"
+hash = "e4633f0dd7cf1291fd91907df34a5bfb29a5c38b558d712bbe5a31d5053f4a02"
 metafile = true
 
 [[files]]
