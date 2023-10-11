@@ -1189,7 +1189,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "e1281e7858663cb1ef53f91e56005ea165f7d95473e12891db40f3266cf755e1"
+hash = "1534cc48fe10f96a488339c716e8e8b2b639cf9355b8949e09fa264991f16432"
 metafile = true
 
 [[files]]
@@ -1213,6 +1213,11 @@ hash = "05068230c90c9a46bbfd976d342df33b52a8c3eba556b4b1fa32a62089669cf8"
 metafile = true
 
 [[files]]
+file = "mods/enderman-overhaul.pw.toml"
+hash = "c9f09d30e9846f396873696bc67c45446e4fc4eb43403f257ea85ef7e397f4eb"
+metafile = true
+
+[[files]]
 file = "mods/endrem.pw.toml"
 hash = "9d435b7aa36c25985a9125f0731a1b9044a71c327367e40c47992212ee3b495f"
 metafile = true
@@ -1229,7 +1234,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "417d8c6a5c32d7bcbd36a5f8c04e7f6722ffb8020ce31ef29537fc54debbe786"
+hash = "cc00eb97b899a6d6ab31fe0e1deb17226fc34062d6d83cbb10daad9827bba959"
 metafile = true
 
 [[files]]
@@ -1264,7 +1269,7 @@ metafile = true
 
 [[files]]
 file = "mods/fallingleaves.pw.toml"
-hash = "5678d25a19853815b9f70b32ec8cde3bd5446cfeff133f62100308f8dce8bcc3"
+hash = "108f76079e4da66581efc1974ef52a2c6da81629fc4279c61d42f066f6ea426e"
 metafile = true
 
 [[files]]
@@ -1354,7 +1359,7 @@ metafile = true
 
 [[files]]
 file = "mods/formations.pw.toml"
-hash = "e4633f0dd7cf1291fd91907df34a5bfb29a5c38b558d712bbe5a31d5053f4a02"
+hash = "68fe2ed218628d566e2ca3203a9ab8f7157ac3632032c2d3983769cfea20487f"
 metafile = true
 
 [[files]]
@@ -1523,6 +1528,11 @@ hash = "48a284a6a4b129d2670f4f91f18c19e0aa72a8b3a508fd37e0b4a4164d506f15"
 metafile = true
 
 [[files]]
+file = "mods/macaws-paintings.pw.toml"
+hash = "6519309c00d990ea3caf07253a5b1158fb03a0bed941118ce3079a92d750caef"
+metafile = true
+
+[[files]]
 file = "mods/mes-moogs-end-structures.pw.toml"
 hash = "2fbce6c9dc6eb7ec8cb0261e64113544b4eceab281b61dbf3f5dc7f138b10c6b"
 metafile = true
@@ -1564,7 +1574,7 @@ metafile = true
 
 [[files]]
 file = "mods/moonlight.pw.toml"
-hash = "d61897931a50b74bd177465988eb0209ac9c3270fd68888da37bb762c5d31cde"
+hash = "ed046faab4ff8ab400ba3d5776f57286835409691c1106240ceb854a2f9ca9db"
 metafile = true
 
 [[files]]
@@ -1739,12 +1749,12 @@ metafile = true
 
 [[files]]
 file = "mods/qsl.pw.toml"
-hash = "a41dbddd6d8d0500fe2dfaa5115ea56393ce8556372da24633ef681273f4dc3c"
+hash = "db2669fd5202942c0d0514c797c198506470e149542ac9d65e33e04f1a01db23"
 metafile = true
 
 [[files]]
 file = "mods/raised.pw.toml"
-hash = "7843c9f45563df3fab3779f6771316b679d32694085d5626b2a060453fbe4e03"
+hash = "d8927be5076d9167c8e0eddf0a449516b1921c10315ac1640e37fe7465095606"
 metafile = true
 
 [[files]]
@@ -1758,7 +1768,7 @@ metafile = true
 
 [[files]]
 file = "mods/red-bits.pw.toml"
-hash = "f3dd375cdee0bbd077dcc70ef7dbcd1aecbd5e92b019e0940e5e26e31e6f2004"
+hash = "de64300d8da6290ad424fbb00a1c3d6a9fbe7e654779fe2a5f30566e5cb21348"
 metafile = true
 
 [[files]]
@@ -1778,7 +1788,7 @@ metafile = true
 
 [[files]]
 file = "mods/repurposed-structures-fabric.pw.toml"
-hash = "63535d48075f8f6366d778e6308aec4d7226167503e08077aa4012982b0c462c"
+hash = "09b657ad8871f1198a237c9f57674a3165113daaf8936efd21dbf36af43f0f53"
 metafile = true
 
 [[files]]
@@ -1933,12 +1943,12 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
-hash = "1b9f8b0039b5fdf0850e6977ee05eb83065bb68d6ac4fed7a5a1609ca8cc5b52"
+hash = "075b0a946ee6bc32d2eadde90257bdf53d09493978b3b7add5af49716691799e"
 metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
-hash = "3c84a76a650422976dc94c3d46bb0a9aba38aaf4be8c09a3aaf1683e651b1f51"
+hash = "8d2d9bf76b6a9dddada92d642ac89d57a46d7ff629b6275958ff1d14d3d1a884"
 metafile = true
 
 [[files]]
@@ -1948,7 +1958,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "b7aa80077a822823775ab923d90235a75483db88490fa4f815740ea7def834b0"
+hash = "dff84f1eca93e18fb1548bacf408b73bed27efe04e842af5b659efce4496dd10"
 metafile = true
 
 [[files]]
@@ -2097,6 +2107,11 @@ hash = "24330390e744a6ce441260e0ea64b389066a0b080e551889e96eee519e732fe4"
 metafile = true
 
 [[files]]
+file = "mods/wdmgslt.pw.toml"
+hash = "9afc2e2eb5faaea601f9eab415ea2b43f058ccbcb5c0ebe6814e0ba63b69362a"
+metafile = true
+
+[[files]]
 file = "mods/wither-skeleton-archers-in-fortresses.pw.toml"
 hash = "7b7128e1b638cf313ba61e9fdab59a2a15fb602fda7488716d8f235a2e71af73"
 metafile = true
@@ -2108,7 +2123,7 @@ metafile = true
 
 [[files]]
 file = "mods/xaeroplus.pw.toml"
-hash = "f79b2228cdffbda9d49a27c3226faa4b075cc64deafcacb1cbc8701705b3a247"
+hash = "ffb5a292acf73a48477799ba79f05f8d9692e977d0268afdd66443add5646f78"
 metafile = true
 
 [[files]]
