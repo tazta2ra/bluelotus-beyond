@@ -20,10 +20,10 @@ inputs:
   MODRINTH_ID:
     required: false
     description: "ID used to uploading modpack to Modrinth"
-  CURSEFORGE-TOKEN:
+  CURSEFORGE_TOKEN:
     required: false
     description: "Token used to uploading modpack to Curseforge"
-  CURSEFORGE-ID:
+  CURSEFORGE_ID:
     required: false
     description: "ID used to uploading modpack to Curseforge"
 
@@ -32,35 +32,41 @@ inputs:
     required: false
     default: .
 
+  release-tag:
+    description: "Tag for the description"
+    required: true
+
 
 runs:
     using: "composite"
     steps:
+
+      # --- Checkout the repo
       - name: Check Out Git Repository
         uses: actions/checkout@v3
 
-      - name: Get Latest tag
-        id: tag
-        uses: WyriHaximus/github-action-get-previous-tag@v1
-
+      # --- Download the pack files
       - name: Download the pack files
         uses: robinraju/release-downloader@v1.8
         id: download-files
         with:
           fileName: "*"
-          tag: ${{ steps.tag.outputs.tag }}
+          tag: ${{ inputs.release-tag }}
           tarBall: false
           zipBall: false
 
-      
+
+      # --- Get latest release description
       - name: Get latest release description
         uses: cardinalby/git-get-release-action@v1
         id: latest-release
         env:
           GITHUB_TOKEN: ${{ github.token }}
         with:
-          tag: ${{ steps.tag.outputs.tag }}
+          tag: ${{ inputs.release-tag }}
 
+
+      # --- Set publish version-type
       - name: Set publish version-type
         id: release-type
         run: |
@@ -73,16 +79,22 @@ runs:
           fi
         shell: bash
 
+
+      # --- Pipe latest release description to file
       - name: Pipe latest release description to file
         run: echo "${{ steps.latest-release.outputs.body }}" > CHANGELOG.release.md
         shell: bash
 
+
+      # --- Print status
       - name: Print status
         run: |
           echo "::notice ::⚙ Assets from latest release ${{ steps.latest-release.outputs.tag_name }} downloaded successfully!"
           echo "::notice ::⚙ Latest release ${{ steps.latest-release.outputs.tag_name }} description piped into a file successfully!"
         shell: bash
         
+
+      # --- Publish to modrinth using the inputs
       - name: Publish to Modrinth
         id: modrinth
         if: inputs.upload-modrinth == 'true'
@@ -90,19 +102,22 @@ runs:
         with:
           modrinth-id: ${{ inputs.MODRINTH_ID }}
           modrinth-token: ${{ inputs.MODRINTH_TOKEN }}
-          loaders: ${{ env.loader }}
-          game-versions: ${{ env.game-version }}
+          loaders: ${{ inputs.loader }}
+          game-versions: ${{ inputs.game-version }}
           changelog-file: CHANGELOG.release.*
           files: "*.mrpack"
-          version: ${{ steps.tag.outputs.tag }}
+          version: ${{ inputs.release-tag }}
           version-type: ${{ steps.release-type.outputs.release-type }}
 
+      # --- Print status
       - name: Print Modrinth upload status
         if: steps.modrinth.outcome == 'success'
         run: |
           echo "::notice ::☀ Modpack ${{ inputs.modpack }} has been uploaded to Modrinth with ${{ inputs.MODRINTH_ID }}"
         shell: bash
 
+
+      # --- Publish to curseforge using the inputs
       - name: Publish to CurseForge
         id: curseforge
         if: inputs.upload-curse == 'true'
@@ -110,13 +125,14 @@ runs:
         with:
           curseforge-id: ${{ inputs.CURSEFORGE_ID }}
           curseforge-token: ${{ inputs.CURSEFORGE_TOKEN }}
-          loaders: ${{ env.loader }}
-          game-versions: ${{ env.game-version }}
+          loaders: ${{ inputs.loader }}
+          game-versions: ${{ inputs.game-version }}
           changelog-file: CHANGELOG.release.*
           files: "*.zip"
-          version: ${{ steps.tag.outputs.tag }}
+          version: ${{ inputs.release-tag }}
           version-type: ${{ steps.release-type.outputs.release-type }}
 
+      # --- Print status
       - name: Print Curseforge upload status
         if: steps.curseforge.outcome == 'success'
         run: |
