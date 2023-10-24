@@ -1,0 +1,13 @@
+name = "Flash"
+filename = "flash-1.20-2.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Zmu8jXWA/versions/Fpenf1R6/flash-1.20-2.0.0.jar"
+hash-format = "sha1"
+hash = "452383c00881defb4a84f0b04db35cfd500e896d"
+
+[update]
+[update.modrinth]
+mod-id = "Zmu8jXWA"
+version = "Fpenf1R6"

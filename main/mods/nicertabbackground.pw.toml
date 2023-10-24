@@ -1,0 +1,13 @@
+name = "NicerTabBackground"
+filename = "nicertabbackground-2.0.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/Fq7WSGBY/versions/dsr8ntKS/nicertabbackground-2.0.0.jar"
+hash-format = "sha1"
+hash = "d0dda81c812881509ea8d805b42424ca3ba86a09"
+
+[update]
+[update.modrinth]
+mod-id = "Fq7WSGBY"
+version = "dsr8ntKS"

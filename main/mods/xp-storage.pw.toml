@@ -1,13 +1,13 @@
 name = "XP Storage"
-filename = "xp_storage-1.5.4+1.20.1.jar"
+filename = "xp_storage-1.5.5+1.20.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/4RdRpt7i/versions/ZnC3uGK2/xp_storage-1.5.4%2B1.20.1.jar"
+url = "https://cdn.modrinth.com/data/4RdRpt7i/versions/TqkbvPhY/xp_storage-1.5.5%2B1.20.1.jar"
 hash-format = "sha1"
-hash = "dbfbc31eb64729a8b27ffb510e1f6d5df7825cc6"
+hash = "d8ba266fe4489cd26165db1e3788c52f8ca78314"
 
 [update]
 [update.modrinth]
 mod-id = "4RdRpt7i"
-version = "ZnC3uGK2"
+version = "TqkbvPhY"

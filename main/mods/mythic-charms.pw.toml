@@ -1,0 +1,13 @@
+name = "Mythic Charms"
+filename = "mythic_charms-fabric-1.20.1-0.3.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/x9tvGmvR/versions/UJFojfrV/mythic_charms-fabric-1.20.1-0.3.0.jar"
+hash-format = "sha1"
+hash = "abfa936a0a50076e870b44666558ed1f3a8e8657"
+
+[update]
+[update.modrinth]
+mod-id = "x9tvGmvR"
+version = "UJFojfrV"

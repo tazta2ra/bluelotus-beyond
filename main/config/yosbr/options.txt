@@ -7,7 +7,6 @@ tutorialStep:none
 skipMultiplayerWarning:true
 joinedFirstServer:true
 
-key_Toggle Customization Overlay | CTRL + ALT + :key.keyboard.unknown
 key_key.dynamicfps.toggle_forced:key.keyboard.unknown
 key_key.dynamicfps.toggle_disabled:key.keyboard.unknown
 key_key.pack_it_up.backpack_key:key.keyboard.b

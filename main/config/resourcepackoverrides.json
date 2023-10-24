@@ -8,8 +8,9 @@
     "file/Icon Xaero's 1.09.zip",
     "file/BetterDiscs-1.0.zip",
     "file/SodiumTranslations.zip",
+    "file/Beyond-GUI.zip",
     "beyond_vanillatweaks",
-    "beyond_gui",
+    "beyond_core",
     "beyond_tips",
     "beyond_guidebook",
     "$polymer-resources",
@@ -26,14 +27,15 @@
     },
 
     "required_packs": [
+      "file/Beyond-GUI.zip",
       "file/Chat Reporting Helper.zip"
     ],
 
     "hidden_packs": [
       "$polymer-resources",
       "spoornpacks",
-      "beyond_vanillatweaks",
-      "beyond_gui",
+      "beyond_VanillaTweaks",
+      "beyond_core",
       "beyond_tips",
       "beyond_guidebook",
       "Fabrication",
@@ -46,7 +48,8 @@
       "elytra-trims-extensions/flower-adornments",
       "supplementaries/darker_ropes",
       "Moonlight Mods Dynamic Assets",
-      "high_contrast"
+      "high_contrast",
+      "telepistons/enable_steam"
     ],
     "hidden_and_req_packs":[
       "file/Icon Xaero's 1.09.zip",

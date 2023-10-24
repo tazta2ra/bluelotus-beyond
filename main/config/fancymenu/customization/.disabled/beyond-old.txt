@@ -50,6 +50,14 @@ customization {
 }
 
 customization {
+  identifier = %id=628382%
+  orientation = bottom-left
+  x = 156
+  action = movebutton
+  y = -38
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = bottom-left
   x = 46
@@ -191,7 +199,7 @@ customization {
 customization {
   orientation = element
   restartbackgroundanimations = true
-  buttonaction = openlink;https://modrinth.com/user/aninuscsalas%btnaction_splitter_fm%
+  buttonaction = openlink;https://modrinth.com/user/tazta2ra%btnaction_splitter_fm%
   label = Check out my other stuff!
   loopbackgroundanimations = true
   hoverlabel = - Check out my other stuff! -
@@ -246,7 +254,7 @@ customization {
   width = 303
   action = addtexture
   actionid = e9512192-ca4e-41dd-94ec-d2b15d10ccdb1692699689496
-  y = 30
+  y = 24
   advanced_width = 303
   height = 83
 }
