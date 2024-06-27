@@ -7,5 +7,6 @@
 # Exclude .direnv
 .direnv
 
-# Eclude precommit hooks config
-.pre-commit-config.yaml
+export.sh
+update.sh
+
