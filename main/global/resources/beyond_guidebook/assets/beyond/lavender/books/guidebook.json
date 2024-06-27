@@ -1,0 +1,5 @@
+{
+    "dynamic_book_model": "beyond:guidebook",
+    "texture": "beyond:textures/gui/cyan_book.png",
+    "dynamic_book_name": { "translate" : "item.beyond.guidebook" }
+}

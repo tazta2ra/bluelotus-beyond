@@ -1,13 +1,13 @@
 name = "Splashy"
-filename = "Splashy-Fabric-1.20.1-14.0.2.jar"
+filename = "Splashy-Fabric-1.20.1-14.0.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/f7b8GSGW/versions/IWL2uds6/Splashy-Fabric-1.20.1-14.0.2.jar"
+url = "https://cdn.modrinth.com/data/f7b8GSGW/versions/3qrDmj2l/Splashy-Fabric-1.20.1-14.0.4.jar"
 hash-format = "sha1"
-hash = "6a671277db9e4ec5bf66690929ff0e625231c6fb"
+hash = "c844be28d7ff36c582597996a24f7a22b87afe79"
 
 [update]
 [update.modrinth]
 mod-id = "f7b8GSGW"
-version = "IWL2uds6"
+version = "3qrDmj2l"

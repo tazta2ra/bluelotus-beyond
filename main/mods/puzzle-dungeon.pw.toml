@@ -1,0 +1,13 @@
+name = "Masik's Puzzle Dungeon"
+filename = "puzzledungeon-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/55LTlbik/versions/gB3d34iR/puzzledungeon-1.2.0.jar"
+hash-format = "sha1"
+hash = "ef2b06da4825de43ca7fd6bdb79f8abee9eeb42b"
+
+[update]
+[update.modrinth]
+mod-id = "55LTlbik"
+version = "gB3d34iR"

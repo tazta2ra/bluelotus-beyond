@@ -97,5 +97,10 @@ key_[Fabrication] Crawl:key.keyboard.r
 key_key.saveToolbarActivator:key.keyboard.unknown
 key_key.wildfire_gender.gender_menu:key.keyboard.grave.accent
 key_key.amecs.toggle_auto_jump:key.keyboard.unknown
+key_key.elytratime.show:key.keyboard.unknown
+key_key.elytratime.config:key.keyboard.unknown
+
+key_seamless_loading_screen.keybind.config:key.keyboard.unknown
+key_key.openNotes:key.keyboard.u
 
 soundCategory_ambient:0.5

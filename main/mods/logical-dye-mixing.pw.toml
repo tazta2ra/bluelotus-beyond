@@ -1,0 +1,13 @@
+name = "Logical Dye Mixing"
+filename = "logical-dye-mixing-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sisHxweW/versions/5gNp3AHJ/logical-dye-mixing-1.0.0.jar"
+hash-format = "sha1"
+hash = "6f59ac6a0474d4d9db329465980da81d5fc490d8"
+
+[update]
+[update.modrinth]
+mod-id = "sisHxweW"
+version = "5gNp3AHJ"

@@ -1,11 +1,12 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "failed_reloads_per_session": 5,
   "default_packs": [
+    "presencefootsteps/default_sound_pack",
     "file/Chat Reporting Helper.zip",
     "file/EBE_1.20.x_v1.1.zip",
-    "file/EmbellishedStone-1.19.3-1.0.0.zip",
-    "file/Icon Xaero's 1.09.zip",
+    "file/EmbellishedStone-1.20.1-1.0.0.zip",
+    "file/Icon Xaero's 1.14HF 1.20-1.20.1.zip",
     "file/BetterDiscs-1.0.zip",
     "file/SodiumTranslations.zip",
     "file/Beyond-GUI.zip",
@@ -14,7 +15,9 @@
     "beyond_tips",
     "beyond_guidebook",
     "$polymer-resources",
-    "elytra-trims-extensions/more-armor-trims"
+    "file/EclecticTrove-noconfig-1.20.1-1.2.0.zip",
+    "minecraft/supporteatinganimation",
+    "file/true-ending-dragon-music-v1.zip"
   ],
   "default_overrides": {
     "force_compatible": true
@@ -40,30 +43,34 @@
       "beyond_guidebook",
       "Fabrication",
       "Fabrication grayscale",
-      "elytra-trims-extensions/more-armor-trims",
       "elytratrims/default",
       "tinyskeletons",
       "bodacious_berries/classic",
       "programmer_art",
-      "elytra-trims-extensions/flower-adornments",
       "supplementaries/darker_ropes",
       "Moonlight Mods Dynamic Assets",
       "high_contrast",
-      "telepistons/enable_steam"
+      "Default Sound Pack",
+      "telepistons/enable_steam",
+      "minecraft/supporteatinganimation"
     ],
     "hidden_and_req_packs":[
-      "file/Icon Xaero's 1.09.zip",
-      "file/SodiumTranslations.zip"
+      "presencefootsteps/default_sound_pack",
+      "file/Icon Xaero's 1.14HF 1.20-1.20.1.zip",
+      "file/SodiumTranslations.zip",
+      "tinyskeletons:main",
+      "file/EclecticTrove-noconfig-1.20.1-1.2.0.zip",
+      "file/true-ending-dragon-music-v1.zip"
     ],
 
-    "$required_packs": {
+    "$$required_packs": {
       "required": true
     },
-    "$hidden_packs": {
+    "$$hidden_packs": {
       "hidden": true
     },
 
-    "$hidden_and_req_packs": {
+    "$$hidden_and_req_packs": {
       "required": true,
       "hidden": true
     }

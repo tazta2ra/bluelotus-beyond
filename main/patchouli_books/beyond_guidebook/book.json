@@ -1,13 +1,8 @@
 {
-    "name": "Blue Lotus Guidebook",
+    "name": "OLD BL Guidebook",
     "book_texture": "patchouli:textures/gui/book_cyan.png",
     "model": "beyond:guidebook",
-    "landing_text": "The guide for Blue Lotus: Beyond! You can find lots of helpful info here about the pack.",
+    "landing_text": "IMPORTANT! A NEW GUIDEBOOK USING THE LAVENDER MOD IS AVALIBLE THIS BOOK IS NOW USELESS, PLEASE USE THE NEW GUIDEBOOK.",
     "version": "0",
-    "subtitle": "Version 0.4.0",
-    "creative_tab": "tools_and_utilities",
-    "filler_texture": "patchouli:filler.png",
-    "open_sound": "patchouli:sounds/book_open.ogg",
-    "flip_sound": "patchouli:sounds/book_flip.ogg",
-    "show_progress": false
+    "subtitle": "Version 0.5.0"
 }

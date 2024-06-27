@@ -1,13 +1,13 @@
 name = "Icon Xaero's"
-filename = "Icon Xaero's 1.09.zip"
+filename = "Icon Xaero's 1.14HF 1.20-1.20.1.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/LWGq2eg6/versions/ruCN2E51/Icon%20Xaero%27s%201.09.zip"
+url = "https://cdn.modrinth.com/data/LWGq2eg6/versions/FUGd7HKW/Icon%20Xaero%27s%201.14HF%201.20-1.20.1.zip"
 hash-format = "sha1"
-hash = "2b0cd7cd68b68956a8e7d3157d182e544dedad26"
+hash = "023b3469d81985b26960d1c4e7d0e599f700d0d6"
 
 [update]
 [update.modrinth]
 mod-id = "LWGq2eg6"
-version = "ruCN2E51"
+version = "FUGd7HKW"

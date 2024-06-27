@@ -1,0 +1,15 @@
+Vanilla Tweaks Resource Pack
+Version: 1.20
+Packs:
+	QuieterMinecarts
+	QuieterPistons
+	2DSpyglass
+	AccurateSpyglass
+	FlintTippedArrows
+	BetterParticles
+	DarkPrismarineBG
+	UnobtrusiveSnow
+	UnobtrusiveRain
+	TransparentPumpkin
+	LowerShield
+	LowerFire

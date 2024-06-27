@@ -1,17 +1,17 @@
-name = "Blue Lotus - Beyond"
+name = "Blue Lotus Beyond"
 author = "tazta2ra"
-version = "0.5.0"
+version = "0.6.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "339c2116f69c3102056e4d34d6525bbdc799c94679026b693d17d27b3d11a73f"
+hash = "eb80e1a92ad52d3a9e778fd467c100266e8fcf036cd283871828c772fe8f4c41"
 
 [versions]
 minecraft = "1.20.1"
-quilt = "0.21.0"
+quilt = "0.26.0"
 
 [options]
 acceptable-game-versions = ["1.20", "1.20.1"]
-datapack-folder = "modpack/datapacks"
+datapack-folder = "global/datapacks"

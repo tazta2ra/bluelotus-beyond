@@ -1,0 +1,14 @@
+name = "Maycarios's Higher Build Limit"
+filename = "maycarios-higher-build-limit-3.jar"
+side = "both"
+pin = true
+
+[download]
+url = "https://cdn.modrinth.com/data/Uge0zAsQ/versions/IV2O6b37/maycarios-higher-build-limit-3.jar"
+hash-format = "sha1"
+hash = "7a8fa2ebbd216eaea242bc59fec848bbf01e896a"
+
+[update]
+[update.modrinth]
+mod-id = "Uge0zAsQ"
+version = "IV2O6b37"

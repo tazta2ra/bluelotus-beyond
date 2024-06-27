@@ -3,11 +3,11 @@ filename = "Beyond-GUI.zip"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/6z4dfNyS/versions/U5tFREPt/Beyond-GUI.zip"
+url = "https://cdn.modrinth.com/data/6z4dfNyS/versions/EL9oNKev/Beyond-GUI.zip"
 hash-format = "sha1"
-hash = "13ccf1a4fcca4cf979deacc035bace253b5d27a7"
+hash = "54f4c4207593dd002d4c1031686c4f3f4005965a"
 
 [update]
 [update.modrinth]
 mod-id = "6z4dfNyS"
-version = "U5tFREPt"
+version = "EL9oNKev"

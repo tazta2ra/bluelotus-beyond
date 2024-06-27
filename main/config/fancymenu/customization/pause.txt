@@ -1,71 +1,178 @@
-type = menu
+type = fancymenu_layout
 
-customization-meta {
-  identifier = net.minecraft.class_433
-  randomgroup = 1
-  renderorder = foreground
+layout-meta {
+  identifier = pause_screen
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1706888272423
+  is_enabled = true
   randommode = false
+  randomgroup = 1
   randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:61f286f8-fa9b-45ca-ad81-ff4ebc822c15-1706888272423] = [groups:][instances:]
 }
 
 customization {
-  keepaspectratio = false
   action = backgroundoptions
+  keepaspectratio = false
 }
 
-customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
-  action = hidebutton
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
 }
 
-customization {
-  identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
-  action = hidebutton
-}
-
-customization {
-  identifier = %id=606306%
-  orientation = bottom-right
-  x = -23
-  action = movebutton
-  y = -23
-}
-
-customization {
-  orientation = element
-  loopbackgroundanimations = true
+element {
+  button_element_executable_block_identifier = 3ef1c8d0-50e0-4b1b-8827-8ae95413a927-1706888272423
+  [executable_action_instance:b2621353-979d-4dd8-92a6-fe4069b895a3-1706888272423][action_type:openlink] = https://github.com/tazta2ra/bluelotus-beyond/issues
+  [executable_block:3ef1c8d0-50e0-4b1b-8827-8ae95413a927-1706888272423][type:generic] = [executables:b2621353-979d-4dd8-92a6-fe4069b895a3-1706888272423;]
   restartbackgroundanimations = true
-  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_stats_button
-  buttonaction = openlink;https://github.com/tazta2ra/bluelotus-beyond/issues%btnaction_splitter_fm%
-  x = 0
-  width = 98
-  action = addbutton
-  actionid = 42f08b42-f9d5-4840-8e50-978a62a9dab21688130845490
-  y = 24
+  loopbackgroundanimations = true
   label = Report bugs
-  height = 20
-}
-
-customization {
-  orientation = element
-  loopbackgroundanimations = true
-  restartbackgroundanimations = true
-  orientation_element = vanillabtn:button_compatibility_id:mc_pausescreen_advancements_button
-  buttonaction = openlink;https://github.com/tazta2ra/bluelotus-beyond%btnaction_splitter_fm%
+  element_type = custom_button
+  instance_identifier = 42f08b42-f9d5-4840-8e50-978a62a9dab21688130845490
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = vanillabtn:button_compatibility_id:mc_pausescreen_stats_button
   x = 0
-  width = 98
-  action = addbutton
-  actionid = c051baf0-bbb9-4a59-a55f-c8a1bb29bfc31688130988842
   y = 24
-  label = Visit Source code
+  width = 98
   height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 6329ad0d-3235-4390-ae6f-13777c1e17ed-1706888272423
+  [loading_requirement_container_meta:6329ad0d-3235-4390-ae6f-13777c1e17ed-1706888272423] = [groups:][instances:]
 }
 
-customization {
-  identifier = %id=606258%
-  orientation = bottom-right
+element {
+  button_element_executable_block_identifier = e5b453c6-90ab-47f4-80d4-b8ba0f8ae830-1706888272423
+  [executable_action_instance:d4101f58-91cb-451b-b3d2-299daa3b3bba-1706888272423][action_type:openlink] = https://github.com/tazta2ra/bluelotus-beyond
+  [executable_block:e5b453c6-90ab-47f4-80d4-b8ba0f8ae830-1706888272423][type:generic] = [executables:d4101f58-91cb-451b-b3d2-299daa3b3bba-1706888272423;]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  label = Visit Source code
+  element_type = custom_button
+  instance_identifier = c051baf0-bbb9-4a59-a55f-c8a1bb29bfc31688130988842
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = element
+  anchor_point_element = vanillabtn:button_compatibility_id:mc_pausescreen_advancements_button
+  x = 0
+  y = 24
+  width = 98
+  height = 20
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 1a3dc359-2981-4a6c-95b4-fd717f40be14-1706888272423
+  [loading_requirement_container_meta:1a3dc359-2981-4a6c-95b4-fd717f40be14-1706888272423] = [groups:][instances:]
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 182ebe7f-a48b-4fea-a6ec-f50fa7977ad4-1706888272423
+  [executable_block:182ebe7f-a48b-4fea-a6ec-f50fa7977ad4-1706888272423][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = mc_pausescreen_feedback_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = a5571703-ab8e-481b-ab65-22bee2e80949-1706888272423
+  [loading_requirement_container_meta:a5571703-ab8e-481b-ab65-22bee2e80949-1706888272423] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 5cc495b5-1e9c-4e34-88c6-69fa53213f1e-1706888272423
+  [executable_block:5cc495b5-1e9c-4e34-88c6-69fa53213f1e-1706888272423][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = mc_pausescreen_report_bugs_button
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 0
+  y = 0
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 20399d29-e32a-48a2-b807-fe1767cd8506-1706888272423
+  [loading_requirement_container_meta:20399d29-e32a-48a2-b807-fe1767cd8506-1706888272423] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 40886a7e-afcc-4632-bd98-a5f3da71259c-1706888272423
+  [executable_block:40886a7e-afcc-4632-bd98-a5f3da71259c-1706888272423][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = 606258
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = bottom-right
   x = -46
-  action = movebutton
   y = -23
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 6925f68b-7ce8-4ca0-9ddc-6172b549a946-1706888272423
+  [loading_requirement_container_meta:6925f68b-7ce8-4ca0-9ddc-6172b549a946-1706888272423] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 02da8c5a-fc3f-430b-bf19-835a6c20ec72-1706888272423
+  [executable_block:02da8c5a-fc3f-430b-bf19-835a6c20ec72-1706888272423][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = 606306
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = bottom-right
+  x = -23
+  y = -23
+  width = 0
+  height = 0
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = false
+  element_loading_requirement_container_identifier = 26ca02af-a054-43da-b078-c402fa7530bb-1706888272423
+  [loading_requirement_container_meta:26ca02af-a054-43da-b078-c402fa7530bb-1706888272423] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
 }
 

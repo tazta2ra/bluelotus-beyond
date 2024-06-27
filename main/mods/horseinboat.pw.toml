@@ -1,0 +1,13 @@
+name = "HorseInBoat"
+filename = "horseinboat-quilt-1.1.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jZ1T46Hr/versions/MVC2YMcT/horseinboat-quilt-1.1.4.jar"
+hash-format = "sha1"
+hash = "23fb0e3c04117d34cec91d178e102d9d43931b50"
+
+[update]
+[update.modrinth]
+mod-id = "jZ1T46Hr"
+version = "MVC2YMcT"

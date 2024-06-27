@@ -1,13 +1,13 @@
 name = "Transferable Pets"
-filename = "transferable_pets-[1.20-1.20.2]-1.0.3.jar"
+filename = "transferable_pets-[1.20-1.20.2]-1.0.4.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/C3DwnxOJ/versions/YUHdOoVE/transferable_pets-%5B1.20-1.20.2%5D-1.0.3.jar"
+url = "https://cdn.modrinth.com/data/C3DwnxOJ/versions/JqI8JnXE/transferable_pets-%5B1.20-1.20.2%5D-1.0.4.jar"
 hash-format = "sha1"
-hash = "0c87c1768c75e524338788bccbd7d383ba7a2bcd"
+hash = "3d12db33eda8d555568b105e6ca04abd901fc2a1"
 
 [update]
 [update.modrinth]
 mod-id = "C3DwnxOJ"
-version = "YUHdOoVE"
+version = "JqI8JnXE"

@@ -1,13 +1,13 @@
 name = "Red Bits (redstone)"
-filename = "redbits-1.16.2.jar"
+filename = "redbits-1.16.6.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/u6AMJBvu/versions/jpzYNaO0/redbits-1.16.2.jar"
+url = "https://cdn.modrinth.com/data/u6AMJBvu/versions/2JXP7rna/redbits-1.16.6.jar"
 hash-format = "sha1"
-hash = "23e8d7acbe6e343b203ed900cd0cec499b760b12"
+hash = "64088cecd87f980022ee1c25807db35e8c32b291"
 
 [update]
 [update.modrinth]
 mod-id = "u6AMJBvu"
-version = "jpzYNaO0"
+version = "2JXP7rna"
